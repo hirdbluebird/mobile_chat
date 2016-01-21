@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mobile Chat</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <main>
+    <header>
+      <div class="avatar-wrapper">
+        <img src="img/user-avatar.jpg" alt="" class="user-avatar">
+      </div>
+      <div class="user-inform">
+        <h3 class="user-name">Вероника Ростова</h3>
+        <p class="user-status">Менеджер по продажам</p>
+        <div class="user-cloud">
+          <p>Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны.</p>  
+        </div>
+      </div>
+    </header>
+
+    <div class="diagramm-wrapper">
+      <div class="diagramm-header">
+        <span>Услуг</span>
+      </div>
+      <div class="diagramm-area">
+        <div class="border-line"></div>
+        <ul class="diagramm">
+          <li>
+            <p>Ручное бронирование</p>
+            <span class="count">11</span>
+          </li>
+          <li>
+            <p>Пакетные туры</p>
+            <span class="count">3</span>
+          </li>
+          <li>
+            <p>Отели</p>
+            <span class="count">1</span>
+          </li>
+        </ul>
+      </div>
+      <div class="diagramm-total">
+        <p>Всего</p>
+        <span class="count">15</span>  
+      </div>
+    </div>
+    
+    <footer>
+      <div class="posts-header">
+        <div class="posts-last">
+          <span>Последние отзывы</span>
+          <a href="#" class="posts-all">Все отзывы</a>
+        </div>
+        <div class="posts-count">
+          <span class="posts-total"><img src="img/comment.png" alt="">14</span>
+          <span class="likes-total"><img src="img/like.png" alt="">131</span>
+        </div>
+      </div>
+      <div class="post-wrapper" id="postWrapper">
+        <section class="single-post">
+          <p class="post-inform"><span class="name">Самуил</span><span class="post-data">13 октября 2011</span></p>
+          <p class="post">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+        </section>
+        <section class="single-post">
+          <p class="post-inform"><span class="name">Лилия Семёнова</span><span class="post-data">13 октября 2011</span></p>
+          <p class="post">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизираует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+        </section>
+        <section class="single-post">
+          <p class="post-inform"><span class="name">Лилия Семёнова</span><span class="post-data">13 октября 2011</span></p>
+          <p class="post">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизираует кинетический момент?</p>
+        </section>
+      </div>
+      <form class="add-post" id="postForm" action="#" onsubmit="">
+        <textarea></textarea>
+        <button type="submit" class="submit-button" id="addPost">Написать консультанту</button>
+      </form>
+    </footer>
+  </main>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/all.js"></script>
+  </body>
+</html>
